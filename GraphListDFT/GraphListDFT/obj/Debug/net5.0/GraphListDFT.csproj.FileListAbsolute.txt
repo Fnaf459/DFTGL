@@ -1,0 +1,15 @@
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\bin\Debug\net5.0\GraphListDFT.exe
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\bin\Debug\net5.0\GraphListDFT.deps.json
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\bin\Debug\net5.0\GraphListDFT.runtimeconfig.json
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\bin\Debug\net5.0\GraphListDFT.runtimeconfig.dev.json
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\bin\Debug\net5.0\GraphListDFT.dll
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\bin\Debug\net5.0\GraphListDFT.pdb
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\obj\Debug\net5.0\GraphListDFT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\obj\Debug\net5.0\GraphListDFT.AssemblyInfoInputs.cache
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\obj\Debug\net5.0\GraphListDFT.AssemblyInfo.cs
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\obj\Debug\net5.0\GraphListDFT.csproj.CoreCompileInputs.cache
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\obj\Debug\net5.0\GraphListDFT.dll
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\obj\Debug\net5.0\refint\GraphListDFT.dll
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\obj\Debug\net5.0\GraphListDFT.pdb
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\obj\Debug\net5.0\GraphListDFT.genruntimeconfig.cache
+C:\Users\sasha\source\repos\GraphListDFT\GraphListDFT\obj\Debug\net5.0\ref\GraphListDFT.dll

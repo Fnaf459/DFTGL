@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "GraphListDFT/1.0.0": {
+        "runtime": {
+          "GraphListDFT.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GraphListDFT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
