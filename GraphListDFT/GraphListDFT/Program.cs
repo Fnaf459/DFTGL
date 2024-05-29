@@ -24,6 +24,32 @@ class Graph
         }
     }
 
+    public void AddRandomEdges(int numberOfVertices, int numberOfEdges)
+    {
+        Random random = new Random();
+
+        for (int i = 0; i < numberOfEdges; i++)
+        {
+            int source = random.Next(numberOfVertices);
+            int destination = random.Next(numberOfVertices);
+
+            AddEdge(source, destination);
+        }
+    }
+
+    public void PrintGraph()
+    {
+        foreach (var vertex in adjacencyList)
+        {
+            Console.Write(vertex.Key + ": ");
+            foreach (var neighbor in vertex.Value)
+            {
+                Console.Write(neighbor + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+
     public void DFS(int start)
     {
         List<bool> visited = new List<bool>();
@@ -51,6 +77,8 @@ class Graph
         while (stack.Count > 0)
         {
             int current = stack.Pop();
+            Console.WriteLine("Извлечена " + current);
+
             Console.Write(current + " ");
 
             if (adjacencyList.ContainsKey(current))
@@ -61,6 +89,7 @@ class Graph
                     {
                         visited[neighbor] = true;
                         stack.Push(neighbor);
+                        Console.WriteLine("Добавлена " + neighbor);
                     }
                 }
             }
@@ -73,13 +102,15 @@ class Graph
     {
         Graph graph = new Graph();
 
-        graph.AddEdge(0, 1);
-        graph.AddEdge(0, 2);
-        graph.AddEdge(1, 3);
-        graph.AddEdge(1, 4);
-        graph.AddEdge(2, 5);
-        graph.AddEdge(2, 6);
+        int numberOfVertices = 10;
+        int numberOfEdges = 15;
 
-        graph.DFS(0);
+        graph.AddRandomEdges(numberOfVertices, numberOfEdges);
+
+        Console.WriteLine("Список смежности графа:");
+        graph.PrintGraph();
+
+        int startVertex = 0;
+        graph.DFS(startVertex);
     }
 }

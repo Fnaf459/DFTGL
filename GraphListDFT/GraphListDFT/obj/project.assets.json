@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sasha\\source\\repos\\GraphListDFT\\GraphListDFT\\GraphListDFT.csproj",
+      "projectUniqueName": "D:\\DFTGL\\GraphListDFT\\GraphListDFT\\GraphListDFT.csproj",
       "projectName": "GraphListDFT",
-      "projectPath": "C:\\Users\\sasha\\source\\repos\\GraphListDFT\\GraphListDFT\\GraphListDFT.csproj",
+      "projectPath": "D:\\DFTGL\\GraphListDFT\\GraphListDFT\\GraphListDFT.csproj",
       "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sasha\\source\\repos\\GraphListDFT\\GraphListDFT\\obj\\",
+      "outputPath": "D:\\DFTGL\\GraphListDFT\\GraphListDFT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
